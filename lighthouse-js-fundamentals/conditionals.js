@@ -11,6 +11,7 @@ if (cold) {
 
 console.log("Now you're ready to go outside!");
 
+//Temperature where short sleeves won't cut it
 let temperature = 12;
 
 if (temperature < 0) {
@@ -48,3 +49,21 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+//Logical AND example
+const isCitizen = true;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+}
+
+//Logical OR example
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea…");
+}
+
+//Logical NOT example
+if (!raining) {
+  console.log("Leave your umbrella at home!");
+}
